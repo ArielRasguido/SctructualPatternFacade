@@ -6,7 +6,8 @@ namespace SctructualPatternFacade
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TravelAgency travelAgency = new TravelAgency();
+            travelAgency.Menu();
         }
     }
 }
